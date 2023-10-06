@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="digital cutlet">
+  <test thread-count="5" name="selenium course">
+    <classes>
+      <class name="aug11.demo5"/>
+      <class name="aug11.demo4"/>
+      <class name="aug11.demo3"/>
+      <class name="aug11.demo2"/>
+    </classes>
+  </test> <!-- Testng.xml -->
+  <test thread-count="5" name="siva course">
+    <classes>
+      <class name="aug11.demo4"/>
+      <class name="aug11.demo3"/>
+      <class name="aug11.demo2"/>
+    </classes>
+  </test> <!-- Testng.xml -->
+</suite> <!-- Suite -->
